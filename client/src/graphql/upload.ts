@@ -6,6 +6,7 @@ export const UPLOAD_SINGLE_FILE = gql`
       filename
       mimetype
       encoding
+      url
     }
   }
 `;

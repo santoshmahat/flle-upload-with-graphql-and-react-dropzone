@@ -5,6 +5,10 @@ import * as express from "express";
 import * as cors from "cors";
 import executableSchema from "./schema/";
 
+import * as dotenv from "dotenv";
+
+dotenv.config();
+
 const PORT = 4000;
 const startServer = async () => {
   //   const connection: Connection = await createConnection();
